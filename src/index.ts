@@ -51,7 +51,7 @@ const main = () => {
         //console.log([...cache.jokerValidCards], 52);
       }
     } else {
-      //console.log("ADDED", firstCard.getId(), secondCard?.getId());
+      console.log("ADDED", firstCard.getId(), secondCard?.getId());
       counter += 1;
       cache.add(firstCard);
       cache.add(secondCard);
